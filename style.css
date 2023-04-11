@@ -1,0 +1,121 @@
+body {
+  display: grid;
+  place-items: center;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(227, 175, 217);
+  color: #000000;
+  padding: 10px; 
+  width: 1500px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+
+.nav li {
+  display: inline;
+}
+.nav a {
+  text-decoration: none;
+  font-family: sans-serif;
+  display: inline-block;
+  padding: 10px 20px;
+  border-bottom: 5px solid #060607;
+}
+
+
+figure {
+  width: 600px;
+  height: 350px;
+}
+th,
+td {
+  padding: 20px;
+}
+tbody td {
+  text-align: center;
+}
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  float:none;
+  clear: none;
+}
+.service{
+  margin: 80px;
+  border: 3px solid black;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+.card_img {
+  height: 300px;
+  border: black 2px solid
+}
+
+.abt {
+  margin-left: 30px;
+}
+.sum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  text-align: center;
+  margin: 50px;
+}
+.services{
+  display: flex;
+  width: 1000px;
+  justify-content: space-around;
+}
+.team{
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 3px black solid;
+  border-radius: 20px;
+}
+.member_img{
+  height: 200px;
+  width: 220px;
+  border-radius: 10px;
+}
+.member{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+}
+input {
+  margin-bottom: 15px;
+}
+mark{
+  background-color:rgb(227, 175, 217);
+}
+
+form input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.submit_button{
+  margin-top: 10px;
+}
+footer {
+  background-color: rgb(227, 175, 217);
+  color: #000000;
+  padding: 10px;
+  width: 1500px;
+  text-align: center;
+}
+
